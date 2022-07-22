@@ -139,7 +139,61 @@ a.change-btn:hover{
     transition:color 0.5s ease;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1450px) {
+
+/* media query for large desktop */
+@media screen and (min-width: 1150px) and (max-width: 1500px) {
+    .container{
+        width:85%;
+        text-align: center;
+        margin:0 auto; 
+    }
+    .summary-section{
+        display: inline;
+        width: 22%;
+        height: auto;
+    }
+    .summary-description{
+        padding:4% 1%;
+        font-size: 13px;
+    }
+    .plan{
+        margin-bottom: 5%;
+    }
+    .proceed-btn{
+        margin-bottom: 5%;
+    }
+    .cancel-btn{
+        margin-bottom: 5%;
+    }
+}
+
+/* media query for pc and small desktop */
+@media screen and (min-width: 1000px) and (max-width: 1150px) {
+    .container{
+        width:85%;
+        text-align: center;
+        margin:0 auto; 
+    }
+    .summary-section{
+        width: 30%;
+        height: auto;
+    }
+    .summary-description{
+        padding:4% 1%;
+        font-size: 13px;
+    }
+    .plan{
+        margin-bottom: 5%;
+    }
+    .proceed-btn{
+        margin-bottom: 5%;
+    }
+    .cancel-btn{
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1000px) {
     .container{
         width:85%;
         text-align: center;
@@ -160,61 +214,115 @@ a.change-btn:hover{
     }
 }
 
-@media screen and (min-width: 800px) and (max-width: 1000px) {
+/* media query for tablet */
+@media screen and (min-width: 600px) and (max-width: 780px) {
     .container{
         width:85%;
         text-align: center;
         margin:0 auto; 
     }
     .summary-section{
-        width: 32%;
+        width: 40%;
         height: auto;
+    }
+    .summary-description{
+        padding:4% 1%;
+        font-size: 13px;
     }
     .plan{
         margin-bottom: 5%;
     }
     .proceed-btn{
-        margin-bottom: 2%;
+        margin-bottom: 5%;
     }
     .cancel-btn{
         margin-bottom: 5%;
     }
 }
-@media screen and (min-width: 450px) and (max-width: 800px) {
+
+@media screen and (min-width: 475px) and (max-width: 600px) {
+    body{
+        background-image: url("images/pattern-background-mobile.svg");
+        background-size: contain;
+    }
+    
     .container{
         width:85%;
         text-align: center;
         margin:0 auto; 
     }
     .summary-section{
-        width: 32%;
+        width: 50%;
         height: auto;
+    }
+    .summary-description{
+        font-size: 14px;
     }
     .plan{
         margin-bottom: 5%;
     }
     .proceed-btn{
-        margin-bottom: 2%;
+        margin-bottom: 5%;
     }
     .cancel-btn{
         margin-bottom: 5%;
     }
 }
-@media screen and (min-width: 300px) and (max-width: 450px) {
+
+/* media query for medium and large mobile */
+@media screen and (min-width: 365px) and (max-width: 475px) {
+    body{
+        background-image: url("images/pattern-background-mobile.svg");
+        background-size: contain;
+    }
     .container{
-        width:85%;
-        text-align: center;
+        width:80%;
+        text-align: center;s
         margin:0 auto; 
     }
     .summary-section{
-        width: 85%;
+        width: 75%;
         height: auto;
+    }
+    .summary-description{
+        padding:4% 1%;
+        font-size: 13px;
     }
     .plan{
         margin-bottom: 5%;
     }
     .proceed-btn{
-        margin-bottom: 2%;
+        margin-bottom: 5%;
+    }
+    .cancel-btn{
+        margin-bottom: 5%;
+    }
+}
+
+/* media query for small mobile */
+@media screen and (min-width: 300px) and (max-width: 365px) {
+    body{
+        background-image: url("images/pattern-background-mobile.svg");
+        background-size: contain;
+    }
+    .container{
+        width:80%;
+        text-align: center;
+        margin:0 auto; 
+    }
+    .summary-section{
+        width: 88%;
+        height: auto;
+    }
+    .summary-description{
+        padding:4% 1%;
+        font-size: 13px;
+    }
+    .plan{
+        margin-bottom: 5%;
+    }
+    .proceed-btn{
+        margin-bottom: 5%;
     }
     .cancel-btn{
         margin-bottom: 5%;
